@@ -79,10 +79,13 @@ body{
     display: grid;
 }
 
+.text{
+    padding:30px;
+}
 
 .text p{
     margin: auto;
-    padding: 20px;
+    padding: 30px;
     font-size: 21px;
     line-height: 32px;
     text-align: center;
@@ -105,6 +108,7 @@ body{
     float: left;
     padding-right: 30px;
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .center-fit-right {
@@ -116,6 +120,7 @@ body{
     float: right;
     padding-bottom: 30px;
     padding-left: 30px;
+    padding-top: 30px;
 }
  /*Footer */   
 
@@ -128,6 +133,7 @@ body{
     background-color:#1b262c;
     width: 100%;
     text-align:center;
+
     
 }
 
@@ -152,6 +158,13 @@ display:flex;
 justify-content:center;
 }
 
-
+hr {
+    
+    border: 0;
+    height: 1px;
+    width: 30%;
+    background: #1b262c;
+    background-image: linear-gradient(to right, #ccc, #1b262c, #ccc);
+}
 
 
