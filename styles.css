@@ -3,6 +3,7 @@ body{
     padding: 20px;
     width: 90%;
     font-family: Lato;
+    
 }
 /* Logo */
 
@@ -54,8 +55,16 @@ body{
     width:180px;
     position: fixed;
     background-color: #3282b8;
-    
+    transition: 0.3s;
 }
+    @media (max-width: 768px){
+        .sidenav{
+            display: none;
+        }
+    }
+
+     
+
 
 .sidenav a{
     padding: 15%;
@@ -79,8 +88,16 @@ body{
     display: grid;
 }
 
+@media (max-width: 768px){
+    .main{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .text{
     padding:30px;
+    display: block;
 }
 
 .text p{
@@ -89,6 +106,7 @@ body{
     font-size: 21px;
     line-height: 32px;
     text-align: center;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .text h1{
@@ -98,6 +116,7 @@ body{
     text-transform:uppercase;
     text-align: center;
     padding-top: 20px;
+    color: rgba(0, 0, 0, 0.8);
 }
 .center-fit-left {
     width: 550px;
