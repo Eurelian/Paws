@@ -1,0 +1,157 @@
+body{
+    margin: 0px auto;
+    padding: 20px;
+    width: 90%;
+    font-family: Lato;
+}
+/* Logo */
+
+.Logo h1{
+    font-size: 50px;
+}
+
+.Logo{
+    padding-left: 15px;
+}
+
+
+/* Navbar*/
+
+
+.navbar{
+    background-color:#1b262c;
+    width: 100%;
+    
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 150px;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #3282b8;
+    color: #1b262c;
+  }
+
+
+
+.navbar-links{
+    display: flex;
+    justify-content: center;
+}
+
+/* Side Nav*/
+
+.sidenav{
+    
+    width:180px;
+    position: fixed;
+    background-color: #3282b8;
+    
+}
+
+.sidenav a{
+    padding: 15%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.sidenav a:hover{
+    background-color: #1b262c;
+}
+
+
+/* Article Formatting*/
+
+.main{
+    margin-left: 190px;
+    margin-top: 20px;
+    display: grid;
+}
+
+
+.text p{
+    margin: auto;
+    padding: 20px;
+    font-size: 21px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.text h1{
+    margin: auto;
+    padding:20px;
+    font-size: 34px;
+    text-transform:uppercase;
+    text-align: center;
+    padding-top: 20px;
+}
+.center-fit-left {
+    width: 550px;
+    max-width: 100%;
+    min-width: 300px;
+    max-height: 100vh;
+    margin: auto;
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.center-fit-right {
+    width: 550px;
+    max-width: 100%;
+    min-width: 300px;
+    max-height: 100vh;
+    margin: auto;
+    float: right;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+ /*Footer */   
+
+
+
+.footer{
+    left:0;
+    bottom:0;
+    width: 100%;
+    background-color:#1b262c;
+    width: 100%;
+    text-align:center;
+    
+}
+
+.footer a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 150px;
+    font-size: 17px;
+}
+
+.footer a:hover{
+    background-color: #3282b8;
+    color: #1b262c;
+}
+
+.footer-links {
+display:flex;
+justify-content:center;
+}
+
+
+
+
